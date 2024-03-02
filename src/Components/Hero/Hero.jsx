@@ -3,9 +3,9 @@ import React from 'react'
 function Hero() {
   return (
     <div className=' relative'>
-      <section className="bg-gray-800 text-gray-100">
-	<div className="container flex flex-col justify-center p-2 mx-auto sm:py-12   lg:flex-row lg:justify-between">
-		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+      <section className="bg-gray-800 lg:mt-0 sm:mt-10 text-gray-100">
+	<div className="container flex flex-col justify-center lg:p-2 mx-auto sm:py-12   lg:flex-row lg:justify-between">
+		<div className="flex sm:pt-20 sm:mt-15 flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
 			<h1 className="text-5xl font-bold leadi sm:text-6xl">Shop
 				<span className="text-violet-400">Good</span>Shop 
 			</h1>

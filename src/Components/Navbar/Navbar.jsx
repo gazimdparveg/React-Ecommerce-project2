@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
 
-  const {carts} = useContext(Shopcontext)
+  const {car} = useContext(Shopcontext)
 
 	const [menu , setmenu]= useState('')
 
@@ -63,7 +63,7 @@ function Navbar() {
     <div className="relative py-2">
   <div className="t-0 absolute left-3">
     <p className="flex  w-2 h-2 items-center justify-center rounded-full bg-red-500 p-3 text-xs text-white">
-		 {[carts.length]} 
+		 {[car?.length]} 
 		 </p>
   </div>
  
